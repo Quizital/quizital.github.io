@@ -1,0 +1,17 @@
+[
+  {"question": "What is the capital of France?", "options": ["London", "Rome", "Paris", "Madrid"], "answer": "Paris", "points": 100, "timeLimit": 10},
+  {"question": "What is the largest ocean on Earth?", "options": ["Atlantic", "Pacific", "Indian", "Arctic"], "answer": "Pacific", "points": 150, "timeLimit": 10},
+  {"question": "What is the tallest mountain in the world?", "options": ["K2", "Everest", "Kilimanjaro", "Denali"], "answer": "Everest", "points": 200, "timeLimit": 10},
+  {"question": "Who painted the Mona Lisa?", "options": ["Van Gogh", "Leonardo da Vinci", "Picasso", "Michelangelo"], "answer": "Leonardo da Vinci", "points": 200, "timeLimit": 15},
+  {"question": "How many continents are there?", "options": ["5", "6", "7", "8"], "answer": "7", "points": 150, "timeLimit": 10},
+  {"question": "What is the currency of Japan?", "options": ["Yuan", "Yen", "Won", "Ringgit"], "answer": "Yen", "points": 150, "timeLimit": 10},
+  {"question": "Which planet is closest to Earth?", "options": ["Venus", "Mars", "Mercury", "Jupiter"], "answer": "Venus", "points": 150, "timeLimit": 10},
+  {"question": "Who discovered penicillin?", "options": ["Einstein", "Alexander Fleming", "Newton", "Pasteur"], "answer": "Alexander Fleming", "points": 200, "timeLimit": 15},
+  {"question": "What is the national sport of Japan?", "options": ["Karate", "Baseball", "Sumo Wrestling", "Soccer"], "answer": "Sumo Wrestling", "points": 200, "timeLimit": 15},
+  {"question": "Which planet is known as the Morning Star?", "options": ["Venus", "Mars", "Jupiter", "Mercury"], "answer": "Venus", "points": 150, "timeLimit": 10},
+  {"question": "What is the chemical symbol for silver?", "options": ["Si", "Ag", "Au", "S"], "answer": "Ag", "points": 200, "timeLimit": 15},
+  {"question": "Which ocean lies between Africa and Australia?", "options": ["Atlantic", "Pacific", "Indian", "Arctic"], "answer": "Indian", "points": 150, "timeLimit": 10},
+  {"question": "What is the largest desert in the world?", "options": ["Sahara", "Gobi", "Arctic", "Antarctic"], "answer": "Antarctic", "points": 200, "timeLimit": 15},
+  {"question": "Who wrote 'Romeo and Juliet'?", "options": ["Shakespeare", "Homer", "Tolstoy", "Dickens"], "answer": "Shakespeare", "points": 100, "timeLimit": 10},
+  {"question": "What is the boiling point of water in Celsius?", "options": ["90", "100", "110", "120"], "answer": "100", "points": 100, "timeLimit": 10}
+]

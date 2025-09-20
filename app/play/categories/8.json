@@ -1,0 +1,17 @@
+[
+  {"question": "Who is known as the King of Pop?", "options": ["Elvis Presley", "Michael Jackson", "Prince", "Freddie Mercury"], "answer": "Michael Jackson", "points": 150, "timeLimit": 10},
+  {"question": "Which band released the album 'Abbey Road'?", "options": ["The Beatles", "Pink Floyd", "Rolling Stones", "Led Zeppelin"], "answer": "The Beatles", "points": 200, "timeLimit": 15},
+  {"question": "What is the highest vocal range in classical singing?", "options": ["Tenor", "Alto", "Soprano", "Bass"], "answer": "Soprano", "points": 200, "timeLimit": 15},
+  {"question": "Who sang 'Like a Prayer'?", "options": ["Cyndi Lauper", "Whitney Houston", "Madonna", "Cher"], "answer": "Madonna", "points": 150, "timeLimit": 10},
+  {"question": "Which instrument has 88 keys?", "options": ["Piano", "Organ", "Accordion", "Synthesizer"], "answer": "Piano", "points": 100, "timeLimit": 10},
+  {"question": "Which rapper is nicknamed 'Slim Shady'?", "options": ["Jay-Z", "Eminem", "Snoop Dogg", "Dr. Dre"], "answer": "Eminem", "points": 150, "timeLimit": 10},
+  {"question": "Which pop star is also known as 'Queen Bey'?", "options": ["Rihanna", "Beyoncé", "Adele", "Taylor Swift"], "answer": "Beyoncé", "points": 150, "timeLimit": 10},
+  {"question": "Which classical composer became deaf later in life?", "options": ["Mozart", "Beethoven", "Bach", "Chopin"], "answer": "Beethoven", "points": 200, "timeLimit": 15},
+  {"question": "Which band wrote 'Bohemian Rhapsody'?", "options": ["Queen", "The Beatles", "The Rolling Stones", "Pink Floyd"], "answer": "Queen", "points": 200, "timeLimit": 15},
+  {"question": "What country is reggae music from?", "options": ["Trinidad", "Cuba", "Jamaica", "Haiti"], "answer": "Jamaica", "points": 150, "timeLimit": 10},
+  {"question": "What is Elvis Presley's middle name?", "options": ["Aaron", "Michael", "Joseph", "Robert"], "answer": "Aaron", "points": 200, "timeLimit": 15},
+  {"question": "Which artist released the album '1989'?", "options": ["Katy Perry", "Taylor Swift", "Ariana Grande", "Lady Gaga"], "answer": "Taylor Swift", "points": 150, "timeLimit": 10},
+  {"question": "Which instrument does Yo-Yo Ma play?", "options": ["Violin", "Cello", "Flute", "Piano"], "answer": "Cello", "points": 200, "timeLimit": 15},
+  {"question": "What is the most-streamed song on Spotify (as of 2023)?", "options": ["Shape of You", "Blinding Lights", "Despacito", "Someone You Loved"], "answer": "Blinding Lights", "points": 200, "timeLimit": 15},
+  {"question": "Which British singer is nicknamed 'Adele Laurie Blue Adkins'?", "options": ["Adele", "Dua Lipa", "Amy Winehouse", "Jessie J"], "answer": "Adele", "points": 150, "timeLimit": 10}
+]

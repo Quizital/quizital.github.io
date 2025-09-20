@@ -1,0 +1,17 @@
+[
+  {"question": "What is the capital of Australia?", "options": ["Sydney", "Melbourne", "Canberra", "Perth"], "answer": "Canberra", "points": 200, "timeLimit": 15},
+  {"question": "What is the national animal of Scotland?", "options": ["Lion", "Unicorn", "Deer", "Dragon"], "answer": "Unicorn", "points": 200, "timeLimit": 15},
+  {"question": "How many players are on a standard football (soccer) team?", "options": ["9", "10", "11", "12"], "answer": "11", "points": 150, "timeLimit": 10},
+  {"question": "What is the largest country in the world by land area?", "options": ["USA", "Canada", "China", "Russia"], "answer": "Russia", "points": 200, "timeLimit": 15},
+  {"question": "What year did World War II end?", "options": ["1942", "1945", "1948", "1950"], "answer": "1945", "points": 200, "timeLimit": 15},
+  {"question": "Which beer is advertised as 'Probably the best beer in the world'?", "options": ["Budweiser", "Carlsberg", "Heineken", "Guinness"], "answer": "Carlsberg", "points": 150, "timeLimit": 10},
+  {"question": "What is the smallest planet in our solar system?", "options": ["Mercury", "Mars", "Venus", "Pluto"], "answer": "Mercury", "points": 200, "timeLimit": 15},
+  {"question": "In which sport would you perform a slam dunk?", "options": ["Tennis", "Basketball", "Football", "Rugby"], "answer": "Basketball", "points": 150, "timeLimit": 10},
+  {"question": "Which chemical element has the symbol 'O'?", "options": ["Gold", "Oxygen", "Osmium", "Olive"], "answer": "Oxygen", "points": 100, "timeLimit": 10},
+  {"question": "Which British city is famous for its steel industry?", "options": ["Birmingham", "Sheffield", "Manchester", "Liverpool"], "answer": "Sheffield", "points": 200, "timeLimit": 15},
+  {"question": "What is the main ingredient in guacamole?", "options": ["Avocado", "Tomato", "Onion", "Cucumber"], "answer": "Avocado", "points": 100, "timeLimit": 10},
+  {"question": "What type of alcohol is traditionally used in a mojito?", "options": ["Vodka", "Rum", "Whiskey", "Tequila"], "answer": "Rum", "points": 150, "timeLimit": 10},
+  {"question": "Which animal is featured on the flag of Sri Lanka?", "options": ["Tiger", "Lion", "Elephant", "Leopard"], "answer": "Lion", "points": 200, "timeLimit": 15},
+  {"question": "What is the capital of Canada?", "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"], "answer": "Ottawa", "points": 150, "timeLimit": 10},
+  {"question": "Which fruit shares its name with a color?", "options": ["Banana", "Apple", "Orange", "Peach"], "answer": "Orange", "points": 100, "timeLimit": 10}
+]

@@ -1,0 +1,18 @@
+[
+  {"question": "What is the largest land animal?", "options": ["Elephant", "Hippo", "Giraffe", "Rhino"], "answer": "Elephant", "points": 100, "timeLimit": 10},
+  {"question": "Which is the fastest land animal?", "options": ["Cheetah", "Lion", "Horse", "Gazelle"], "answer": "Cheetah", "points": 150, "timeLimit": 10},
+  {"question": "What gas do plants absorb from the atmosphere?", "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"], "answer": "Carbon Dioxide", "points": 200, "timeLimit": 15},
+  {"question": "Which tree produces acorns?", "options": ["Maple", "Oak", "Birch", "Pine"], "answer": "Oak", "points": 150, "timeLimit": 10},
+  {"question": "What is the tallest type of grass?", "options": ["Bamboo", "Wheat", "Corn", "Sugarcane"], "answer": "Bamboo", "points": 200, "timeLimit": 15},
+  {"question": "What is the largest mammal in the ocean?", "options": ["Blue Whale", "Shark", "Dolphin", "Orca"], "answer": "Blue Whale", "points": 200, "timeLimit": 15},
+  {"question": "How many legs does a spider have?", "options": ["6", "8", "10", "12"], "answer": "8", "points": 100, "timeLimit": 10},
+  {"question": "What type of animal is a Komodo dragon?", "options": ["Reptile", "Mammal", "Bird", "Fish"], "answer": "Reptile", "points": 150, "timeLimit": 10},
+  {"question": "Which bird is known for its impressive mimicry skills?", "options": ["Crow", "Lyrebird", "Parrot", "Mockingbird"], "answer": "Lyrebird", "points": 200, "timeLimit": 15},
+  {"question": "What is the only mammal capable of true flight?", "options": ["Bat", "Flying Squirrel", "Eagle", "Sugar Glider"], "answer": "Bat", "points": 150, "timeLimit": 10},
+  {"question": "What type of blood do insects have?", "options": ["Red", "Green", "Blue", "Colorless"], "answer": "Colorless", "points": 200, "timeLimit": 15},
+  {"question": "Which animal is known as the king of the jungle?", "options": ["Tiger", "Elephant", "Lion", "Jaguar"], "answer": "Lion", "points": 100, "timeLimit": 10},
+  {"question": "What is the fastest bird?", "options": ["Peregrine Falcon", "Eagle", "Ostrich", "Swift"], "answer": "Peregrine Falcon", "points": 200, "timeLimit": 15},
+  {"question": "Which insect is responsible for spreading malaria?", "options": ["Mosquito", "Fly", "Tick", "Flea"], "answer": "Mosquito", "points": 150, "timeLimit": 10},
+  {"question": "What is the process by which plants make their own food?", "options": ["Photosynthesis", "Respiration", "Transpiration", "Digestion"], "answer": "Photosynthesis", "points": 200, "timeLimit": 15},
+  {"question": "What is the largest reptile in the world?", "options": ["Komodo Dragon", "Crocodile", "Anaconda", "Alligator"], "answer": "Crocodile", "points": 200, "timeLimit": 15}
+]

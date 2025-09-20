@@ -1,0 +1,17 @@
+[
+  {"question": "What is the largest ocean on Earth?", "options": ["Atlantic", "Indian", "Pacific", "Arctic"], "answer": "Pacific", "points": 150, "timeLimit": 10},
+  {"question": "What is the capital of Australia?", "options": ["Sydney", "Melbourne", "Canberra", "Perth"], "answer": "Canberra", "points": 200, "timeLimit": 15},
+  {"question": "Mount Everest lies on the border of Nepal and which country?", "options": ["India", "China", "Bhutan", "Pakistan"], "answer": "China", "points": 200, "timeLimit": 15},
+  {"question": "What river flows through Egypt?", "options": ["Amazon", "Nile", "Tigris", "Yangtze"], "answer": "Nile", "points": 150, "timeLimit": 10},
+  {"question": "What is the smallest country in the world?", "options": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"], "answer": "Vatican City", "points": 200, "timeLimit": 15},
+  {"question": "What is the largest desert in the world?", "options": ["Sahara", "Gobi", "Arctic", "Antarctic"], "answer": "Antarctic", "points": 200, "timeLimit": 15},
+  {"question": "Which continent has the most countries?", "options": ["Africa", "Asia", "Europe", "South America"], "answer": "Africa", "points": 200, "timeLimit": 15},
+  {"question": "What is the capital of Canada?", "options": ["Toronto", "Ottawa", "Vancouver", "Montreal"], "answer": "Ottawa", "points": 150, "timeLimit": 10},
+  {"question": "Which US state is known as the Sunshine State?", "options": ["California", "Florida", "Hawaii", "Arizona"], "answer": "Florida", "points": 150, "timeLimit": 10},
+  {"question": "Which country has the most islands?", "options": ["Sweden", "Indonesia", "Philippines", "Canada"], "answer": "Sweden", "points": 200, "timeLimit": 15},
+  {"question": "Which country is known as the Land Down Under?", "options": ["New Zealand", "South Africa", "Australia", "Chile"], "answer": "Australia", "points": 150, "timeLimit": 10},
+  {"question": "What is the longest river in the world?", "options": ["Amazon", "Nile", "Yangtze", "Mississippi"], "answer": "Nile", "points": 200, "timeLimit": 15},
+  {"question": "Which European city has a famous leaning tower?", "options": ["Paris", "Venice", "Pisa", "Rome"], "answer": "Pisa", "points": 150, "timeLimit": 10},
+  {"question": "What is the capital of Brazil?", "options": ["São Paulo", "Brasília", "Rio de Janeiro", "Salvador"], "answer": "Brasília", "points": 200, "timeLimit": 15},
+  {"question": "Which ocean is Bermuda in?", "options": ["Pacific", "Atlantic", "Indian", "Arctic"], "answer": "Atlantic", "points": 200, "timeLimit": 15}
+]

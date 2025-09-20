@@ -1,0 +1,17 @@
+[
+  {"question": "What is the chemical symbol for water?", "options": ["O2", "H2O", "CO2", "HO"], "answer": "H2O", "points": 100, "timeLimit": 10},
+  {"question": "How many bones are in the adult human body?", "options": ["206", "201", "210", "198"], "answer": "206", "points": 150, "timeLimit": 15},
+  {"question": "What particle carries a negative charge?", "options": ["Proton", "Neutron", "Electron", "Photon"], "answer": "Electron", "points": 200, "timeLimit": 10},
+  {"question": "What force keeps us on the ground?", "options": ["Magnetism", "Friction", "Gravity", "Inertia"], "answer": "Gravity", "points": 100, "timeLimit": 10},
+  {"question": "Who developed the theory of relativity?", "options": ["Newton", "Einstein", "Hawking", "Tesla"], "answer": "Einstein", "points": 200, "timeLimit": 15},
+  {"question": "What is the powerhouse of the cell?", "options": ["Nucleus", "Mitochondria", "Ribosome", "Golgi Apparatus"], "answer": "Mitochondria", "points": 150, "timeLimit": 10},
+  {"question": "What is the chemical symbol for gold?", "options": ["Gd", "Ag", "Au", "Go"], "answer": "Au", "points": 150, "timeLimit": 10},
+  {"question": "How many planets are in the solar system?", "options": ["7", "8", "9", "10"], "answer": "8", "points": 200, "timeLimit": 10},
+  {"question": "What is the hardest natural substance on Earth?", "options": ["Gold", "Iron", "Diamond", "Quartz"], "answer": "Diamond", "points": 150, "timeLimit": 10},
+  {"question": "What part of the human brain controls balance?", "options": ["Cerebellum", "Cerebrum", "Brainstem", "Thalamus"], "answer": "Cerebellum", "points": 200, "timeLimit": 15},
+  {"question": "What is the main gas found in the air we breathe?", "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"], "answer": "Nitrogen", "points": 200, "timeLimit": 15},
+  {"question": "Which vitamin do we get from sunlight?", "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"], "answer": "Vitamin D", "points": 150, "timeLimit": 10},
+  {"question": "What organ pumps blood through the body?", "options": ["Liver", "Heart", "Lung", "Kidney"], "answer": "Heart", "points": 100, "timeLimit": 10},
+  {"question": "What is the speed of light?", "options": ["300,000 km/s", "150,000 km/s", "1,000 km/s", "30,000 km/s"], "answer": "300,000 km/s", "points": 200, "timeLimit": 15},
+  {"question": "Which blood type is known as the universal donor?", "options": ["A", "B", "AB", "O negative"], "answer": "O negative", "points": 200, "timeLimit": 15}
+]

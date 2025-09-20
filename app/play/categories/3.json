@@ -1,0 +1,20 @@
+[
+  {"question": "Which planet is known as the Red Planet?", "options": ["Venus", "Mars", "Jupiter", "Saturn"], "answer": "Mars", "points": 100, "timeLimit": 10},
+  {"question": "What is the largest planet in our solar system?", "options": ["Earth", "Jupiter", "Neptune", "Saturn"], "answer": "Jupiter", "points": 150, "timeLimit": 10},
+  {"question": "What galaxy is Earth located in?", "options": ["Andromeda", "Whirlpool", "Milky Way", "Sombrero"], "answer": "Milky Way", "points": 200, "timeLimit": 10},
+  {"question": "Which planet has the most moons?", "options": ["Mars", "Saturn", "Jupiter", "Neptune"], "answer": "Saturn", "points": 200, "timeLimit": 15},
+  {"question": "What is the name of the first man-made satellite launched into space?", "options": ["Voyager 1", "Apollo 11", "Sputnik 1", "Hubble"], "answer": "Sputnik 1", "points": 150, "timeLimit": 15},
+  {"question": "Which planet is closest to the Sun?", "options": ["Venus", "Mercury", "Earth", "Mars"], "answer": "Mercury", "points": 100, "timeLimit": 10},
+  {"question": "What is the name of NASA's most famous space telescope?", "options": ["Kepler", "Hubble", "Chandra", "Spitzer"], "answer": "Hubble", "points": 150, "timeLimit": 10},
+  {"question": "Who was the first person to walk on the moon?", "options": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"], "answer": "Neil Armstrong", "points": 200, "timeLimit": 15},
+  {"question": "What planet is famous for its rings?", "options": ["Saturn", "Jupiter", "Uranus", "Neptune"], "answer": "Saturn", "points": 150, "timeLimit": 10},
+  {"question": "How long does it take Earth to orbit the Sun?", "options": ["24 hours", "365 days", "30 days", "12 hours"], "answer": "365 days", "points": 100, "timeLimit": 10},
+  {"question": "What is a light-year a measurement of?", "options": ["Time", "Speed", "Distance", "Brightness"], "answer": "Distance", "points": 200, "timeLimit": 15},
+  {"question": "Which planet rotates on its side?", "options": ["Neptune", "Venus", "Uranus", "Jupiter"], "answer": "Uranus", "points": 200, "timeLimit": 15},
+  {"question": "Which dwarf planet was once considered the ninth planet?", "options": ["Ceres", "Eris", "Haumea", "Pluto"], "answer": "Pluto", "points": 150, "timeLimit": 10},
+  {"question": "What is the hottest planet in our solar system?", "options": ["Mercury", "Venus", "Mars", "Jupiter"], "answer": "Venus", "points": 200, "timeLimit": 15},
+  {"question": "What star is at the center of our solar system?", "options": ["Polaris", "Sirius", "The Sun", "Alpha Centauri"], "answer": "The Sun", "points": 100, "timeLimit": 10},
+  {"question": "What was the name of the first American in space?", "options": ["John Glenn", "Neil Armstrong", "Alan Shepard", "Buzz Aldrin"], "answer": "Alan Shepard", "points": 200, "timeLimit": 15},
+  {"question": "Which planet is known as Earth's twin due to its size?", "options": ["Venus", "Mars", "Jupiter", "Neptune"], "answer": "Venus", "points": 150, "timeLimit": 10},
+  {"question": "What is the name of the rover that landed on Mars in 2021?", "options": ["Curiosity", "Perseverance", "Opportunity", "Spirit"], "answer": "Perseverance", "points": 200, "timeLimit": 15}
+]

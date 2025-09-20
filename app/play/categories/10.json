@@ -1,0 +1,17 @@
+[
+  {"question": "What type of food is brie?", "options": ["Cheese", "Bread", "Meat", "Fruit"], "answer": "Cheese", "points": 150, "timeLimit": 10},
+  {"question": "Which fruit is known as the king of fruits?", "options": ["Apple", "Banana", "Mango", "Pineapple"], "answer": "Mango", "points": 200, "timeLimit": 15},
+  {"question": "What is the main ingredient in hummus?", "options": ["Lentils", "Chickpeas", "Beans", "Rice"], "answer": "Chickpeas", "points": 150, "timeLimit": 10},
+  {"question": "What is the most widely eaten fish in the world?", "options": ["Salmon", "Tuna", "Herring", "Cod"], "answer": "Herring", "points": 200, "timeLimit": 15},
+  {"question": "What is the Italian word for 'ice cream'?", "options": ["Gelato", "Sorbetto", "Dolce", "Crema"], "answer": "Gelato", "points": 150, "timeLimit": 10},
+  {"question": "What type of nut is used to make marzipan?", "options": ["Almond", "Cashew", "Hazelnut", "Pistachio"], "answer": "Almond", "points": 150, "timeLimit": 10},
+  {"question": "Which country is famous for sushi?", "options": ["China", "Japan", "Korea", "Thailand"], "answer": "Japan", "points": 100, "timeLimit": 10},
+  {"question": "What alcoholic drink is made from fermented grapes?", "options": ["Beer", "Wine", "Whiskey", "Vodka"], "answer": "Wine", "points": 100, "timeLimit": 10},
+  {"question": "What type of food is penne?", "options": ["Cheese", "Pasta", "Bread", "Meat"], "answer": "Pasta", "points": 100, "timeLimit": 10},
+  {"question": "What is tofu made from?", "options": ["Soybeans", "Rice", "Corn", "Wheat"], "answer": "Soybeans", "points": 200, "timeLimit": 15},
+  {"question": "What is the spiciest chili in the world?", "options": ["Ghost Pepper", "Carolina Reaper", "Habanero", "Trinidad Scorpion"], "answer": "Carolina Reaper", "points": 200, "timeLimit": 15},
+  {"question": "What fruit is dried to make prunes?", "options": ["Plum", "Apricot", "Fig", "Date"], "answer": "Plum", "points": 150, "timeLimit": 10},
+  {"question": "What type of pasta's name means 'little worms'?", "options": ["Vermicelli", "Fettuccine", "Rigatoni", "Linguine"], "answer": "Vermicelli", "points": 200, "timeLimit": 15},
+  {"question": "What type of beans are baked beans made from?", "options": ["Pinto", "Kidney", "Haricot", "Black"], "answer": "Haricot", "points": 200, "timeLimit": 15},
+  {"question": "Which spice is the most expensive in the world?", "options": ["Vanilla", "Cinnamon", "Saffron", "Cardamom"], "answer": "Saffron", "points": 200, "timeLimit": 15}
+]

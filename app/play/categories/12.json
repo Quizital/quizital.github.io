@@ -1,0 +1,17 @@
+[
+  {"question": "Who was the first President of the United States?", "options": ["Thomas Jefferson", "Abraham Lincoln", "George Washington", "John Adams"], "answer": "George Washington", "points": 150, "timeLimit": 10},
+  {"question": "In which year did World War II end?", "options": ["1940", "1942", "1945", "1948"], "answer": "1945", "points": 200, "timeLimit": 15},
+  {"question": "Who discovered America in 1492?", "options": ["Christopher Columbus", "Vasco da Gama", "Ferdinand Magellan", "Marco Polo"], "answer": "Christopher Columbus", "points": 200, "timeLimit": 15},
+  {"question": "Which wall divided Berlin from 1961 to 1989?", "options": ["Iron Curtain", "Berlin Wall", "Great Wall", "Red Wall"], "answer": "Berlin Wall", "points": 150, "timeLimit": 10},
+  {"question": "Who was known as the Maid of Orléans?", "options": ["Cleopatra", "Joan of Arc", "Marie Antoinette", "Queen Victoria"], "answer": "Joan of Arc", "points": 200, "timeLimit": 15},
+  {"question": "Which empire built Machu Picchu?", "options": ["Aztec", "Inca", "Maya", "Olmec"], "answer": "Inca", "points": 200, "timeLimit": 15},
+  {"question": "Which war was fought between the North and South regions in the United States?", "options": ["Revolutionary War", "Civil War", "World War I", "Korean War"], "answer": "Civil War", "points": 150, "timeLimit": 10},
+  {"question": "Who was the British Prime Minister during most of World War II?", "options": ["Neville Chamberlain", "Winston Churchill", "Clement Attlee", "Harold Wilson"], "answer": "Winston Churchill", "points": 200, "timeLimit": 15},
+  {"question": "In which year did the Titanic sink?", "options": ["1905", "1912", "1918", "1925"], "answer": "1912", "points": 200, "timeLimit": 15},
+  {"question": "Who was the first man to circumnavigate the globe?", "options": ["Columbus", "Magellan", "Cook", "Pizarro"], "answer": "Magellan", "points": 200, "timeLimit": 15},
+  {"question": "Which empire was ruled by Genghis Khan?", "options": ["Mongol", "Ottoman", "Roman", "Persian"], "answer": "Mongol", "points": 150, "timeLimit": 10},
+  {"question": "Who was the last Tsar of Russia?", "options": ["Nicholas I", "Alexander II", "Nicholas II", "Peter the Great"], "answer": "Nicholas II", "points": 200, "timeLimit": 15},
+  {"question": "What year did the French Revolution begin?", "options": ["1776", "1789", "1804", "1815"], "answer": "1789", "points": 200, "timeLimit": 15},
+  {"question": "Which country built the Great Wall?", "options": ["Japan", "India", "China", "Korea"], "answer": "China", "points": 100, "timeLimit": 10},
+  {"question": "Who was the first female Prime Minister of the UK?", "options": ["Margaret Thatcher", "Theresa May", "Angela Merkel", "Indira Gandhi"], "answer": "Margaret Thatcher", "points": 150, "timeLimit": 10}
+]

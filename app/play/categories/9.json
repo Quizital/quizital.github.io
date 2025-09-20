@@ -1,0 +1,17 @@
+[
+  {"question": "What is the national flower of Japan?", "options": ["Lotus", "Cherry Blossom", "Rose", "Tulip"], "answer": "Cherry Blossom", "points": 200, "timeLimit": 15},
+  {"question": "Diwali is a festival of which religion?", "options": ["Hinduism", "Christianity", "Buddhism", "Islam"], "answer": "Hinduism", "points": 200, "timeLimit": 15},
+  {"question": "Which country is famous for Flamenco dancing?", "options": ["Portugal", "Spain", "Italy", "France"], "answer": "Spain", "points": 150, "timeLimit": 10},
+  {"question": "What is sushi traditionally wrapped in?", "options": ["Rice Paper", "Seaweed", "Lettuce", "Bread"], "answer": "Seaweed", "points": 150, "timeLimit": 10},
+  {"question": "Which city hosts the Carnival with samba parades?", "options": ["Rio de Janeiro", "Venice", "New Orleans", "Madrid"], "answer": "Rio de Janeiro", "points": 200, "timeLimit": 15},
+  {"question": "What is the Day of the Dead called in Spanish?", "options": ["Día de los Muertos", "Fiesta de la Vida", "El Carnaval", "Semana Santa"], "answer": "Día de los Muertos", "points": 200, "timeLimit": 15},
+  {"question": "Which country invented pizza?", "options": ["France", "Greece", "Italy", "Spain"], "answer": "Italy", "points": 150, "timeLimit": 10},
+  {"question": "Which famous structure is in Agra, India?", "options": ["Great Wall", "Taj Mahal", "Petra", "Angkor Wat"], "answer": "Taj Mahal", "points": 200, "timeLimit": 15},
+  {"question": "Which country is home to the Maori people?", "options": ["Australia", "Fiji", "New Zealand", "Hawaii"], "answer": "New Zealand", "points": 200, "timeLimit": 15},
+  {"question": "In Chinese culture, what does the color red symbolize?", "options": ["Luck", "Love", "Danger", "Peace"], "answer": "Luck", "points": 150, "timeLimit": 10},
+  {"question": "Which festival is known as the Festival of Colors?", "options": ["Holi", "Diwali", "Ramadan", "Oktoberfest"], "answer": "Holi", "points": 150, "timeLimit": 10},
+  {"question": "Which language has the most native speakers worldwide?", "options": ["English", "Mandarin Chinese", "Spanish", "Hindi"], "answer": "Mandarin Chinese", "points": 200, "timeLimit": 15},
+  {"question": "Which country is known as the Land of the Rising Sun?", "options": ["China", "Japan", "Thailand", "Vietnam"], "answer": "Japan", "points": 150, "timeLimit": 10},
+  {"question": "What is Oktoberfest traditionally celebrated with?", "options": ["Beer", "Wine", "Whiskey", "Vodka"], "answer": "Beer", "points": 200, "timeLimit": 15},
+  {"question": "Which country is home to the Louvre Museum?", "options": ["Italy", "Germany", "France", "Spain"], "answer": "France", "points": 150, "timeLimit": 10}
+]

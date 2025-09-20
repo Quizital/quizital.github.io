@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QUIZITAL</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/themium/FrameworkV0@main/v0.css">
+<style>
+    body {
+        margin: 0;
+        font-family: Ubuntu, sans-serif;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 100px;
+        margin: 350px 0 20px 0;
+        animation: shrinkMove 2s ease forwards;
+    }
+
+    @keyframes shrinkMove {
+        0% { font-size: 100px; margin-top: 350px; }
+        100% { font-size: 50px; margin-top: 30px; }
+    }
+
+    .content {
+        margin-top: 20px;
+        opacity: 0;
+        animation: fadeIn 1s ease forwards;
+        animation-delay: 2s;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 20px;
+    }
+
+    @keyframes fadeIn { to { opacity: 1; } }
+
+    body.no-anim h1 { font-size: 50px; margin: 30px 0 20px 0; animation: none; }
+    body.no-anim .content { opacity: 1; animation: none; }
+
+    .section {
+        margin: 30px 0;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .section h3 {
+        margin: 0 0 15px 0;
+        font-size: 20px;
+        color: rgb(0, 200, 255);
+    }
+
+    .btn {
+        display: inline-block;
+        background-color: rgb(28, 134, 204);
+        color: white;
+        text-decoration: none;
+        padding: 12px 30px;
+        border-radius: 6px;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+        cursor: pointer;
+        border: none;
+    }
+    .btn:hover { background-color: rgb(0, 100, 220); }
+    .btn:disabled { 
+        background-color: #666; 
+        cursor: not-allowed; 
+    }
+
+    .categories {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .category {
+        width: 160px;
+        height: 140px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        background: #222;
+        color: white;
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
+        position: relative;
+    }
+    .category.selected {
+        border: 3px solid rgb(0, 200, 255);
+    }
+    .category:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    .category img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0; left: 0;
+        z-index: 0;
+        filter: brightness(0.7);
+    }
+
+    .category p {
+        position: relative;
+        z-index: 1;
+        margin: 0;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        background: rgba(0,0,0,0.4);
+        border-top: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .game-mode {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px 0;
+    }
+
+    .mode-option {
+        padding: 15px 25px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px solid transparent;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        min-width: 120px;
+    }
+
+    .mode-option.selected {
+        border-color: rgb(0, 200, 255);
+        background: rgba(0, 200, 255, 0.2);
+    }
+
+    .mode-option:hover {
+        background: rgba(255, 255, 255, 0.15);
+    }
+
+    .input-group {
+        margin: 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .input-group label {
+        font-weight: bold;
+        min-width: 120px;
+        text-align: right;
+    }
+
+    .input-group input, .input-group select {
+        padding: 8px 12px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+        font-size: 16px;
+        width: 200px;
+    }
+
+    .input-group input::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .players-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+        align-items: center;
+    }
+
+    .player-input {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .player-input input {
+        width: 180px;
+    }
+
+    .remove-player {
+        background: #ff4757;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .add-player {
+        background: rgb(28, 134, 204);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 16px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .multiplayer-options {
+        display: none;
+    }
+
+    .multiplayer-options.active {
+        display: block;
+    }
+
+    @media (max-width: 768px) {
+        .game-mode {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .input-group {
+            flex-direction: column;
+            gap: 5px;
+        }
+        
+        .input-group label {
+            text-align: center;
+            min-width: auto;
+        }
+    }
+</style>
+</head>
+<body class="tf_thm-darkbluee tf_f-ubuntu">
+<h1 class="tf_fw-200">QUIZITAL</h1>
+
+<div class="content">
+    <div class="section">
+        <h3>Select Categories</h3>
+        <div class="categories">
+            <div class="category">
+                <quizital-metadata category-id="1"></quizital-metadata>
+                <img src="https://fastly.picsum.photos/id/36/1920/1080.jpg?hmac=5vmLfKJtn1ZD0DPlNB5IKKpnIt6pYsv2TvkZN82KOe0" alt="Category Image">
+                <p>Tech</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="2"></quizital-metadata>
+                <img src="https://fastly.picsum.photos/id/450/160/140.jpg?hmac=dePeueIWcdiafx5ixAWvK0-OBZtmq7sw-Ivqq2KdD0o" alt="Category Image">
+                <p>Nature</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="3"></quizital-metadata>
+                <img src="https://fastly.picsum.photos/id/137/1920/1080.jpg?hmac=r842vhykaoJaV9BTbXcFa2V_sk1atvlAnt5rUbAxTSY" alt="Category Image">
+                <p>Space</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="12"></quizital-metadata>
+                <img src="https://wallpapercave.com/wp/wp2244208.jpg" alt="Category Image">
+                <p>History</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="13"></quizital-metadata>
+                <img src="https://wallpapers.com/images/hd/historical-background-1920-x-1080-9hf8vlbmjer13p9b.jpg" alt="Category Image">
+                <p>Geography</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="11"></quizital-metadata>
+                <img src="https://i.pinimg.com/736x/30/03/b8/3003b8c757bfe72403538e1f4ae2984d.jpg" alt="Category Image">
+                <p>Maths</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="10"></quizital-metadata>
+                <img src="https://wallpapers.com/images/hd/food-4k-1pf6px6ryqfjtnyr.jpg" alt="Category Image">
+                <p>Food</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="9"></quizital-metadata>
+                <img src="https://images.pexels.com/photos/1313814/pexels-photo-1313814.jpeg?cs=srgb&dl=pexels-minan1398-1313814.jpg&fm=jpg" alt="Category Image">
+                <p>Culture</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="7"></quizital-metadata>
+                <img src="https://wallpapers.com/images/featured/movie-9pvmdtvz4cb0xl37.jpg" alt="Category Image">
+                <p>Movies & TV</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="8"></quizital-metadata>
+                <img src="https://cdn.wallpapersafari.com/84/27/dJDH7g.jpg" alt="Category Image">
+                <p>Music</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="6"></quizital-metadata>
+                <img src="https://static.vecteezy.com/system/resources/previews/022/169/929/non_2x/pub-quiz-night-game-with-bulb-light-and-tile-background-text-bar-poster-font-for-brain-contest-or-challenge-red-and-gold-broadway-typography-for-carnival-design-golden-typeface-with-marquee-glow-vector.jpg" alt="Category Image">
+                <p>Pub Quiz</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="5"></quizital-metadata>
+                <img src="https://e1.pxfuel.com/desktop-wallpaper/356/1003/desktop-wallpaper-general-knowledge-quiz-general-knowledge.jpg" alt="Category Image">
+                <p>General Knowledge</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="4"></quizital-metadata>
+                <img src="https://img.freepik.com/free-vector/abstract-technology-particle-background_23-2148408853.jpg" alt="Category Image">
+                <p>Science</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Game Mode</h3>
+        <div class="game-mode">
+            <div class="mode-option selected" data-mode="single">
+                <strong>Single Player</strong><br>
+                <small>Play solo</small>
+            </div>
+            <div class="mode-option" data-mode="multi">
+                <strong>Multiplayer</strong><br>
+                <small>Play with friends</small>
+            </div>
+        </div>
+        
+        <div class="multiplayer-options" id="multiplayerOptions">
+            <div class="players-list" id="playersList">
+                <div class="player-input">
+                    <label>Player 1:</label>
+                    <input type="text" placeholder="Enter player name" value="Player 1">
+                    <button class="remove-player" onclick="removePlayer(this)" style="visibility: hidden;">Remove</button>
+                </div>
+                <div class="player-input">
+                    <label>Player 2:</label>
+                    <input type="text" placeholder="Enter player name" value="Player 2">
+                    <button class="remove-player" onclick="removePlayer(this)">Remove</button>
+                </div>
+            </div>
+            <button class="add-player" onclick="addPlayer()">Add Player</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Quiz Settings</h3>
+        <div class="input-group">
+            <label for="totalQuestions">Max Questions:</label>
+            <input type="number" id="totalQuestions">
+        </div>
+    </div>
+
+    <button class="btn" id="startQuiz">Start Quiz</button>
+</div>
+
+<script>
+    // Skip animation if ?test=true
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("test") === "true") document.body.classList.add("no-anim");
+
+    let playerCount = 2;
+
+    // Handle category selection
+    const categories = document.querySelectorAll('.category');
+    categories.forEach(cat => {
+        cat.addEventListener('click', () => {
+            cat.classList.toggle('selected');
+        });
+    });
+
+    // Handle game mode selection
+    const modeOptions = document.querySelectorAll('.mode-option');
+    const multiplayerOptions = document.getElementById('multiplayerOptions');
+
+    modeOptions.forEach(option => {
+        option.addEventListener('click', () => {
+            modeOptions.forEach(opt => opt.classList.remove('selected'));
+            option.classList.add('selected');
+            
+            if (option.dataset.mode === 'multi') {
+                multiplayerOptions.classList.add('active');
+            } else {
+                multiplayerOptions.classList.remove('active');
+            }
+        });
+    });
+
+    // Add player function
+    function addPlayer() {
+        playerCount++;
+        const playersList = document.getElementById('playersList');
+        const playerDiv = document.createElement('div');
+        playerDiv.className = 'player-input';
+        playerDiv.innerHTML = `
+            <label>Player ${playerCount}:</label>
+            <input type="text" placeholder="Enter player name" value="Player ${playerCount}">
+            <button class="remove-player" onclick="removePlayer(this)">Remove</button>
+        `;
+        playersList.appendChild(playerDiv);
+    }
+
+    // Remove player function
+    function removePlayer(button) {
+        const playerInput = button.parentElement;
+        const playersList = document.getElementById('playersList');
+        
+        // Don't allow removing if only 2 players left
+        if (playersList.children.length <= 2) {
+            alert('Multiplayer requires at least 2 players!');
+            return;
+        }
+        
+        playerInput.remove();
+        
+        // Update labels and hide remove button for first player if only 2 left
+        updatePlayerLabels();
+    }
+
+    // Update player labels
+    function updatePlayerLabels() {
+        const playerInputs = document.querySelectorAll('.player-input');
+        playerInputs.forEach((input, index) => {
+            const label = input.querySelector('label');
+            const removeBtn = input.querySelector('.remove-player');
+            
+            label.textContent = `Player ${index + 1}:`;
+            
+            // Hide remove button for first player if only 2 players
+            if (index === 0 && playerInputs.length <= 2) {
+                removeBtn.style.visibility = 'hidden';
+            } else {
+                removeBtn.style.visibility = 'visible';
+            }
+        });
+    }
+
+    // Start Quiz button click
+    document.getElementById('startQuiz').addEventListener('click', (e) => {
+        e.preventDefault();
+        
+        // Get selected categories
+        const selectedIds = Array.from(document.querySelectorAll('.category.selected'))
+            .map(cat => cat.querySelector('quizital-metadata').getAttribute('category-id'));
+        
+        if(selectedIds.length === 0) {
+            alert('Please select at least one category!');
+            return;
+        }
+
+        // Build URL with parameters
+        let url = 'play/index.html?categories=' + selectedIds.join(',');
+        
+        // Add total questions parameter
+        const totalQuestions = document.getElementById('totalQuestions').value;
+        if (totalQuestions) {
+            url += '&total=' + totalQuestions;
+        }
+        
+        // Add multiplayer parameter if multiplayer mode is selected
+        const selectedMode = document.querySelector('.mode-option.selected').dataset.mode;
+        if (selectedMode === 'multi') {
+            const playerInputs = document.querySelectorAll('#playersList input');
+            const playerNames = Array.from(playerInputs)
+                .map(input => input.value.trim())
+                .filter(name => name !== '');
+            
+            if (playerNames.length < 2) {
+                alert('Please enter at least 2 player names for multiplayer!');
+                return;
+            }
+            
+            url += '&multiplayer=' + encodeURIComponent(playerNames.join(','));
+        }
+        
+        // Navigate to play page
+        window.location.href = url;
+    });
+
+    // Initialize player labels
+    updatePlayerLabels();
+</script>
+</body>
+</html>

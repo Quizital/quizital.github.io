@@ -1,0 +1,17 @@
+[
+  {"question": "Who directed Jurassic Park?", "options": ["James Cameron", "Steven Spielberg", "George Lucas", "Ridley Scott"], "answer": "Steven Spielberg", "points": 200, "timeLimit": 15},
+  {"question": "Which movie features the quote 'I'll be back'?", "options": ["Die Hard", "Predator", "The Terminator", "RoboCop"], "answer": "The Terminator", "points": 150, "timeLimit": 10},
+  {"question": "Which TV series features the character Walter White?", "options": ["Breaking Bad", "The Wire", "Narcos", "Dexter"], "answer": "Breaking Bad", "points": 200, "timeLimit": 15},
+  {"question": "In The Matrix, does Neo take the red pill or the blue pill?", "options": ["Red", "Blue"], "answer": "Red", "points": 150, "timeLimit": 10},
+  {"question": "Who played Jack in Titanic?", "options": ["Brad Pitt", "Leonardo DiCaprio", "Tom Cruise", "Matt Damon"], "answer": "Leonardo DiCaprio", "points": 100, "timeLimit": 10},
+  {"question": "What is the longest-running animated TV show?", "options": ["South Park", "The Simpsons", "Family Guy", "SpongeBob SquarePants"], "answer": "The Simpsons", "points": 200, "timeLimit": 15},
+  {"question": "Which movie won the first Academy Award for Best Picture?", "options": ["Metropolis", "Wings", "Gone With the Wind", "Citizen Kane"], "answer": "Wings", "points": 200, "timeLimit": 15},
+  {"question": "What is the name of the coffee shop in Friends?", "options": ["Central Perk", "Coffee House", "Bean Scene", "Cafe Central"], "answer": "Central Perk", "points": 150, "timeLimit": 10},
+  {"question": "Which Marvel film introduced Black Panther?", "options": ["Avengers: Age of Ultron", "Black Panther", "Captain America: Civil War", "Thor: Ragnarok"], "answer": "Captain America: Civil War", "points": 200, "timeLimit": 15},
+  {"question": "Who voiced Shrek?", "options": ["Eddie Murphy", "Mike Myers", "Tom Hanks", "Robin Williams"], "answer": "Mike Myers", "points": 150, "timeLimit": 10},
+  {"question": "Which TV show is set in the fictional town of Hawkins, Indiana?", "options": ["Riverdale", "Stranger Things", "Dark", "The X-Files"], "answer": "Stranger Things", "points": 200, "timeLimit": 15},
+  {"question": "Which film features the line 'Life finds a way'?", "options": ["Jurassic Park", "Inception", "Interstellar", "Avatar"], "answer": "Jurassic Park", "points": 200, "timeLimit": 15},
+  {"question": "In Game of Thrones, what is the family motto of House Stark?", "options": ["Fire and Blood", "Hear Me Roar", "Winter is Coming", "Ours is the Fury"], "answer": "Winter is Coming", "points": 150, "timeLimit": 10},
+  {"question": "Who played The Joker in The Dark Knight?", "options": ["Heath Ledger", "Joaquin Phoenix", "Jack Nicholson", "Jared Leto"], "answer": "Heath Ledger", "points": 200, "timeLimit": 15},
+  {"question": "Which film series features a character named Jack Sparrow?", "options": ["Lord of the Rings", "Pirates of the Caribbean", "Harry Potter", "Star Wars"], "answer": "Pirates of the Caribbean", "points": 150, "timeLimit": 10}
+]
