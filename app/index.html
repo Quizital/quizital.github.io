@@ -315,6 +315,76 @@
                 <img src="https://img.freepik.com/free-vector/abstract-technology-particle-background_23-2148408853.jpg" alt="Category Image">
                 <p>Science</p>
             </div>
+            <div class="category">
+                <quizital-metadata category-id="14"></quizital-metadata>
+                <img src="https://cdn.wallpapersafari.com/69/76/GiMBax.png" alt="Category Image">
+                <p>Flags</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="15"></quizital-metadata>
+                <img src="https://www.shutterstock.com/shutterstock/videos/3457238403/thumb/1.jpg?ip=x480" alt="Category Image">
+                <p>Video Games</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="16"></quizital-metadata>
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/068/632/966/small_2x/assorted-sports-balls-on-reflective-surface-photo.jpg" alt="Category Image">
+                <p>Sports</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="17"></quizital-metadata>
+                <img src="https://cdn.vectorstock.com/i/500p/81/54/guess-who-with-black-background-vector-47318154.jpg" alt="Category Image">
+                <p>Guess Who</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="18"></quizital-metadata>
+                <img src="https://pbs.twimg.com/media/Fz8wAFNXoAE7Hhf.jpg" alt="Category Image">
+                <p>Quick fire</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="19"></quizital-metadata>
+                <img src="https://twistedsifter.com/wp-content/uploads/2014/03/the-price-is-right-logo.jpg" alt="Category Image">
+                <p>The price is right</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="20"></quizital-metadata>
+                <img src="https://sdmntpreastus2.oaiusercontent.com/files/00000000-0258-61f6-8ac5-42f2e06cf992/raw?se=2025-09-21T13%3A46%3A41Z&sp=r&sv=2024-08-04&sr=b&scid=f4004df1-18d9-5060-bbde-8db71d7d6ea7&skoid=02b7f7b5-29f8-416a-aeb6-99464748559d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-20T19%3A47%3A26Z&ske=2025-09-21T19%3A47%3A26Z&sks=b&skv=2024-08-04&sig=v4f/WejqfZuG5Rc7FM6Y%2BR1Na6Q18/LPyXPi0WU0ah0%3D" alt="Category Image">
+                <p>Movie Quotes</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="21"></quizital-metadata>
+                <img src="https://cdn.wallpapersafari.com/22/49/pa6onc.jpg" alt="Category Image">
+                <p>Harry Potter</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="22"></quizital-metadata>
+                <img src="https://ichef.bbci.co.uk/images/ic/1200xn/p07ns6hr.jpg" alt="Category Image">
+                <p>Past Laws</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="23"></quizital-metadata>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMNJSQ5EGgQwRQCMTRw-kFF9waIDWLMVsvBQ&s" alt="Category Image">
+                <p>Logos</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="24"></quizital-metadata>
+                <img src="https://t3.ftcdn.net/jpg/01/36/13/66/360_F_136136673_LcSo2KwqZnqetEi96LZG6VwY8B3s8f0J.jpg" alt="Category Image">
+                <p>World Records</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="25"></quizital-metadata>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBvOkd1n0mD23lKCx1IOW2f_rm70oYaxS3xQ&s" alt="Category Image">
+                <p>Art</p>
+            </div>
+            <div class="category">
+                <quizital-metadata category-id="26"></quizital-metadata>
+                <img src="https://d1e4pidl3fu268.cloudfront.net/f16cd03d-3c0b-48a6-9f3e-9174717b71a2/1500940_590812444335029_41168193_o.crop_1949x1462_50,0.preview.jpg" alt="Category Image">
+                <p>Spelling</p>
+            </div>
+            <div class="category" style="display: none;" id="BETASelect122">
+                <quizital-metadata category-id="beta-testing-questions"></quizital-metadata>
+                <img src="https://thumbs.dreamstime.com/b/beta-testing-gold-badge-blue-ribbon-beta-testing-beta-testing-120121612.jpg" alt="Category Image">
+                <p>[EXCLUSIVE] Beta Testing</p>
+            </div>
         </div>
     </div>
 
@@ -363,6 +433,7 @@
     // Skip animation if ?test=true
     const params = new URLSearchParams(window.location.search);
     if (params.get("test") === "true") document.body.classList.add("no-anim");
+    if (params.get("branch") === "beta") document.getElementById('BETASelect122').style.display = ''
 
     let playerCount = 2;
 
