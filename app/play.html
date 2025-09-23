@@ -350,6 +350,8 @@ h1 {
 </style>
 </head>
 <body>
+<div id="header-container"></div><script>fetch('assets/html/header.html').then(r=>r.text()).then(d=>{document.getElementById('header-container').innerHTML=d;window.scrollTo(0,0);}).catch(e=>console.error('Error loading header:',e));</script>
+
 <h1 class="tf_f-ubuntu tf_fw-200">QUIZITAL</h1>
 
 <div class="progress-container hidden" id="progress-container">

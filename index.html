@@ -28,6 +28,7 @@
     </style>
 </head>
 <body class="tf_thm-darkbluee tf_f-ubuntu">
+    <div id="header-container"></div><script>fetch('app/assets/html/header.html').then(r=>r.text()).then(d=>{document.getElementById('header-container').innerHTML=d;window.scrollTo(0,0);}).catch(e=>console.error('Error loading header:',e));</script>
     <h1 style="text-align: center; font-size: 100px; margin-bottom: 0; margin-top: 350px;" class="tf_fw-200">QUIZITAL</h1>
     <p style="text-align: center; margin-top: 0;">An easy to use, modern, fun quiz app</p>
     <p style="text-align: center; margin-top: 0;">With over 20 categories! </p>

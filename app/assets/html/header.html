@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/themium/FrameworkV0@main/v0.css">
+<header style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; background: #16325c; color: #fff;" class="tf_f-ubuntu">
+    <div>
+      <h2 class="tf_fw-300" style="margin: 0;">QUIZITAL</h2>
+      <p style="margin: 0; font-size: 1rem; opacity: 0.8;">v1.2.0</p>
+    </div>
+    <nav style="display: flex; align-items: center; gap: 1.5rem;">
+      <a href="/" style="color: #fff; text-decoration: none;">Home</a>
+      <a href="/app/" style="color: #fff; text-decoration: none;">Play</a>
+      <!--<a href="/app/forschools.html" style="color: #fff; text-decoration: none;">About</a>-->
+      <a href="/app/fullview.html" style="color: #fff; text-decoration: none;">FullView (BETA)</a>
+    </nav>
+  </header>
+<!--<style>
+  /* Highlight the active link */
+  header nav a.active {
+    filter: brightness(1.4);
+    font-weight: bold;
+    text-decoration: underline;
+  }
+</style>
+<style>
+  /* Highlight the active link */
+  header nav a.active {
+    color: #ffd700;      /* bright yellow or any color you like */
+    font-weight: bold;
+    text-decoration: underline;
+  }
+</style>
+
+<script>
+  const path = window.location.pathname;
+  console.log(path)
+
+  if (path === "/" || path === "/index.html") {
+    document.getElementById("link-home").classList.add("active");
+  } else if (path === "/app/" || path === "/app/index.html") {
+    document.getElementById("link-play").classList.add("active");
+  } else if (path === "/app/fullview.html") {
+    document.getElementById("link-fullview").classList.add("active");
+  }
+</script>-->
